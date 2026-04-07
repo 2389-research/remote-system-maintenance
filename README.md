@@ -5,6 +5,7 @@ Structured procedures for diagnosing and maintaining remote Linux systems via SS
 ## Installation
 
 ```bash
+/plugin marketplace add 2389-research/claude-plugins
 /plugin install remote-system-maintenance@2389-research
 ```
 
