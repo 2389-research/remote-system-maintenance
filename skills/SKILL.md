@@ -1,6 +1,6 @@
 ---
 name: remote-system-maintenance
-description: This skill should be used when performing maintenance or diagnostics on remote Linux systems. Triggers on "remote server", "Linux maintenance", "Ubuntu cleanup", "Debian", "disk space", "apt cleanup", "journal vacuum", "snap cleanup", "system diagnostics". Provides structured three-phase checklists with quantification.
+description: Runs structured diagnostics and maintenance on remote Linux systems over SSH, following a three-phase checklist covering resource assessment, log review, and Ubuntu/Debian package cleanup. Use when recovering disk space, running apt upgrade and autoremove sequences, vacuuming systemd journals, removing disabled snap revisions, or assessing system health before or after changes.
 ---
 
 # Remote System Maintenance
